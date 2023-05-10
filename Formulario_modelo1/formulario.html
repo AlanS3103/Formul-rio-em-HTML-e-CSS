@@ -11,7 +11,7 @@
 
     <div class="conteiner">
     
-        <div>
+        <div class="content">
             <h1 id="titulo">Cadastro de DEVs</h1>
             <p id="subtitulo">Complete suas informações</p>
             <br>
@@ -50,7 +50,7 @@
 
             <div class="campo">
                 <label for="senioridade"><strong>Senioridade</strong></label>
-                <select id="senioridade">
+                <select id="senioridade" required>
                     <option selected disabled value="">Selecione</option>
                     <option>Junior</option>
                     <option>Pleno</option>
@@ -75,6 +75,8 @@
                     <label for="tecnologia6">Python</label>
                     <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
                     <label for="tecnologia7">Java</label>
+                    <input type="checkbox" id="tecnologia7" name="nenhuma" value="Nenhuma">
+                    <label for="tecnologia7">Nenhuma</label>
                 </div>
             </fieldset>
 
