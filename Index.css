@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color: blue;
+    font-size: 1.2em;
+    
+}
+
+.grupo{
+    border-radius: 1em;
+    margin: 1em;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 20em;
+    height: 10em;
+    background-color: antiquewhite;
+}
