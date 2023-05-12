@@ -3,14 +3,19 @@
     padding: 0;
 }
 
+.conteiner{
+    border-radius: 5px;
+    padding: 1.5em 0 0;
+}
+
 #titulo{
     font-family: sans-serif;
-    color: #44E3D3;
+    color: #00635A;
 }
 
 #subtitulo{
     font-family: sans-serif;
-    color: #44E3D3;
+    color: #00635A;
 }
 
 fieldset{
@@ -36,7 +41,11 @@ input, select, textarea, button{
 .campo label{
     margin-bottom: 0.2em;
     color: #00635A;
-    /* display: block; */
+}
+
+.campo_radio{
+    margin-bottom: 1em;
+    display: grid;
 }
 
 fieldset.grupo .campo{
@@ -48,7 +57,6 @@ fieldset.grupo .campo{
     padding: 0.2em;
     border: 1px solid #00635A;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    /* display: block; */
 }
 
 .campo select option{
@@ -56,46 +64,31 @@ fieldset.grupo .campo{
 }
 
 .campo input:focus, .campo select:focus, .campo textarea:focus {
-    background: #DB6B37;
+    background: #44E3D3;
 }
 
 .botao {
     font-size: 1.2em;
     background: #00635A;
     border: 0;
-    margin-bottom: 1em;
+    margin-top: 1em;
     color: #FFFFFF;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    margin: 1em 0 0 11em;
-    /* position: absolute;
-    top: 75%;
-    left: 50%;
-    margin-right: -50%; */
-    transform: translate(-50%, -50%);
 }
 
 .botao:hover{
-    background: #E19C7C;
+    background: #00E3CC;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
 }
 
+
 #check{
-    /* display: inline-block; */
-}
-
-
-.conteiner{
-    background-color: #32A89C;
-    border-radius: 5px;
-    padding: 1em;
-}
-
-#experiencia{
-    margin-left: 3em;
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .content{
@@ -105,7 +98,12 @@ fieldset.grupo .campo{
 }
 
 form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    justify-items: center;
+    
+}
+
+.experiencia{
+    display: grid;
+    
 }
