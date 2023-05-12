@@ -94,6 +94,10 @@ fieldset.grupo .campo{
     flex-direction: column;
 }
 
+#check input{
+    padding-left: 5px;
+}
+
 .content{
     display: flex;
     flex-direction: column;

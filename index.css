@@ -4,23 +4,24 @@
 }
 
 body{
+    background-color: #B761DB;
     display: flex;
     justify-content: center;
 }
 
 a{
-    color: blue;
+    color: #73318F;
     font-size: 1.2em;
     
 }
 
 .grupo{
     border-radius: 1em;
-    margin: 1em;
+    margin: 5em 0;
     display: grid;
     align-items: center;
     justify-items: center;
     width: 20em;
     height: 10em;
-    background-color: antiquewhite;
+    background-color: #DC8AFF;
 }
